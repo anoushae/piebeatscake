@@ -4,3 +4,8 @@ body {
     font-family: 'Roboto', sans-serif;    
     color: rgb(65, 177, 241);
 }
+
+.container {
+    background-color: white;
+    display: column;
+}
