@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif; 
+}
+
+main {
+    margin: 2px;
+    padding: 20px;
+}
+
+header, footer {
+    padding: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.title {
+    color:black;    
+}
+
+.lead {
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    height: 60px;
+  }
+  
+  ul.container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    
+    list-style: none;
+    background: white;
+    margin: 0;
+    line-height: 30px;
+  }
+  
+  .container a {
+    text-decoration: none;
+    color: darkgrey;
+    margin: 10px;
+  }
